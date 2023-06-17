@@ -1,18 +1,19 @@
-# LoginPage_SpringBoot_ReactJS
 
-# This file contains code for registration page 
+ LoginPage_SpringBoot_ReactJS
 
-# make a form containing these fields
-# ID - firstName - lastName - password - Confirm Password - email   ------- In react 
+ This file contains code for registration page 
+
+ make a form  using react.js containing these fields
+ ID - firstName - lastName - password - Confirm Password - email   ------- In react 
 
 -------------------------------------------------
 
 Endpoints for GET, POST, GetById, Delete 
 
-# Find all user
+// Find all user
 GET - http://localhost:8080/users
 
-  # Find user by id
+  // Find user by id
   GET - http://localhost:8080/users/{id}  
 
 POST - http://localhost:8080/users
@@ -26,7 +27,7 @@ POST - http://localhost:8080/users
         "email": "a@a.com"
     }
     
- Delete -  http://localhost:8080/users/{id}  
+ // Delete -  http://localhost:8080/users/{id}  
   For ex - http://localhost:8080/users/144  
   
 
